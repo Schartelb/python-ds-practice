@@ -5,3 +5,6 @@ def compact(lst):
         [1, 2, 'All done']
     """
     return [item for item in lst if bool(item) == True]
+
+#same lines of code.  No need for boolean type check, "if item"
+#would've been enough

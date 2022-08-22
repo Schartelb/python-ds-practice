@@ -32,3 +32,6 @@ def is_odd_string(word):
         tot += ord(str(char))
     return tot % 2 != 0
     # Hint: you may find the ord() function useful here
+
+#used iterating within sum function
+#very similar to what's written but just within sum function

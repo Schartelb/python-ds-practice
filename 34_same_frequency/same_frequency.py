@@ -17,3 +17,6 @@ def same_frequency(num1, num2):
     for key in dict2.keys():
         dict2[key] = str(num2).count(key)
     return dict1 == dict2
+
+#written as function for counting frequency using str() to iterate
+#function called on either value, and checked if true

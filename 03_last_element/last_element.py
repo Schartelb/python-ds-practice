@@ -11,3 +11,5 @@ def last_element(lst):
         return lst[-1]
     else:
         return "None"
+
+#Python can count backwards using lst[-1]

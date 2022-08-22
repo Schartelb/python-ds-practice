@@ -22,3 +22,6 @@ def find_the_duplicate(nums):
             return pair[0]
         else:
             return None
+
+#make empty set then iterate across OG list comparing to set,
+#if already in set, return, otherwise add to set

@@ -25,3 +25,5 @@ def find_greater_numbers(nums):
             if nums[check] > num:
                 count += 1
     return count
+
+#almost exact match

@@ -23,3 +23,6 @@ def read_file_list(filename):
     for line in file:
         print("- "+line.strip('\n'))
     file.close()
+
+#with method only opens file when in use.
+#otherwise, simple strip command without specifying endline char works

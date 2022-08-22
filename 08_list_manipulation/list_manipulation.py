@@ -53,3 +53,6 @@ def list_manipulation(lst, command, location, value=None):
             lst.pop(len(lst)-1)
     else:
         return None
+
+#list.pop() will always be from end.  No need for len(lst)-1
+#functions will return None naturally if no other output

@@ -34,3 +34,5 @@ def sum_range(nums, start=0, end=None):
             output += nums[start]
             start += 1
         return output
+
+#return sum function of nums sliced from start to end

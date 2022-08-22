@@ -31,3 +31,5 @@ def valid_parentheses(parens):
         if char == ")":
             count -= 1
     return count == 0
+
+#very similar.  They just checked if number went negative ever

@@ -28,3 +28,7 @@ def is_palindrome(phrase):
     for num in range(len(backwards)-1, -1, -1):
         output += backwards[num]
     return check == output
+
+#Again, able to slice through strings in Python
+#replace " " with "" first, then step through, check equivalence
+#(works because Python only checks insides)

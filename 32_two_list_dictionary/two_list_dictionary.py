@@ -22,3 +22,6 @@ def two_list_dictionary(keys, values):
         else:
             output[key] = values[keys.index(key)]
     return output
+
+#logic can be shortened to:
+#out[val] = values[idx] if idx < len(values) else None

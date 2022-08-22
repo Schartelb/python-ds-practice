@@ -17,3 +17,6 @@ def friend_date(a, b):
         True
     """
     return len(set(a[2]) & set(b[2])) > 0
+
+#similar to alternative of
+#return bool(set(a[2]) $ set(b[2]))

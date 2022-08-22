@@ -13,3 +13,5 @@ def flip_case(phrase, to_swap):
     """
 
     return phrase.replace(to_swap, to_swap.swapcase(), phrase.count(to_swap))
+
+#Got it less lines overall than answer sheet

@@ -30,5 +30,8 @@ def calculate(operation, a, b, make_int=False, message='The result is '):
     if make_int == True:
         return message+str(int(math[operation]))
     elif operation != math.keys():
-        return None
+        return None  # none is unnecessary here
     return message+str(math[operation])
+
+#they used long if/elif statement for operands
+# can use f" for return message

@@ -22,3 +22,4 @@ def repeat(phrase, num):
         return phrase*num
     else:
         return None
+#close, swapping > for < shortens code by removing the else line

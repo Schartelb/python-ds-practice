@@ -18,3 +18,5 @@ def weekday_name(day_of_week):
         return week[day_of_week]
     else:
         return "None"
+
+#Using list of weekdays and using week[day_of_week-1] is more efficient

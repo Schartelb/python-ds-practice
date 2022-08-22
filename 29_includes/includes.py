@@ -40,3 +40,6 @@ def includes(collection, sought, start=None):
     if sought in collection[begin::]:
         return True
     return False
+
+#using isinstance(collection, type) is shortest, and lumping
+#set/start=none shortens code significantly

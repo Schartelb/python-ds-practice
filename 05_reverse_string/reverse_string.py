@@ -15,3 +15,5 @@ def reverse_string(phrase):
     for num in range(len(backwards)-1, -1, -1):
         output += backwards[num]
     return output
+
+    #Python can slice backwards using phrase[-1]... incredibly more efficient

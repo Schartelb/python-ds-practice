@@ -12,3 +12,6 @@ def multiple_letter_count(phrase):
     for item in letters:
         output[item] = letters.count(item)
     return output
+
+#can iterate through strings in Python
+#use dct.get(key,0)+1

@@ -10,3 +10,5 @@ def min_max_keys(d):
         ('apple', 'cherry')
     """
     return ((sorted(list(d.keys()))[0], sorted(list(d.keys()))[len(d.keys())-1]))
+
+#min(keys) max(keys) is a thing

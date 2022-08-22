@@ -32,3 +32,5 @@ def truncate(phrase, n):
     for char in line:
         trun += char
     return trun
+
+    #Slicing through strings strikes again!

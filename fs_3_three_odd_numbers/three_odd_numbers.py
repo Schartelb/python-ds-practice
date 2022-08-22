@@ -17,3 +17,5 @@ def three_odd_numbers(nums):
         tot = 0
         tot = nums[num]+nums[num+1]+nums[num+2]
     return tot % 2 != 0
+
+#using if with num++ to return true stops function before checking everything

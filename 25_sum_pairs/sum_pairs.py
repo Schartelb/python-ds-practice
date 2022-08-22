@@ -30,3 +30,6 @@ def sum_pairs(nums, goal):
                     if tup[0] == num2:
                         return tup
     return ()
+
+#used a method of checking if the difference of iterator and goal
+#was already checked

@@ -12,3 +12,6 @@ def single_letter_count(word, letter):
     """
     countword = list(word)
     return countword.count(letter)
+
+#concatenate 13 and 14 and make lowercase
+#return word.lower().count(letter.lower())

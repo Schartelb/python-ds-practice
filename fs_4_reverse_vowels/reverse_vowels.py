@@ -28,3 +28,5 @@ def reverse_vowels(s):
             s2[count] = vowels[num]
             num -= 1
     return "".join(s2)
+#counts until hits vowel from both forward and backward
+#swaps using string[f],string[b]=string[b],string[f]

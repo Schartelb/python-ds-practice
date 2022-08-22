@@ -18,3 +18,7 @@ def mode(nums):
             most = num
             high = nums.count(num)
     return most
+
+#theirs uses a dictionary and stores num:freq
+#finds max_value = max(counts.values())
+#iterates over counts.items to match max_value to key

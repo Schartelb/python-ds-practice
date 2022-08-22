@@ -21,3 +21,5 @@ def extract_full_names(people):
             fullname = fullname+' '+name
         lst.append(fullname)
     return lst
+
+#iterate over dictionary using f'{person['first']}... for person in people

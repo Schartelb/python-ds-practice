@@ -20,3 +20,5 @@ def partition(lst, fn):
         [['hi', 'bye'], [None, 6]]
     """
     return [[item for item in lst if fn(item) == True], [item for item in lst if fn(item) == False]]
+
+#less optimal still called clever
